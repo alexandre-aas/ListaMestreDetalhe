@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Um TextView não pode mostrar uma pagina da web, por isso foi substituida por um WebView
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/website_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:textIsSelectable="true"
+    tools:context=".WebsiteDetailFragment" />
+/-->
+
+<WebView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/website_detail"
+    tools:context="com.s.d.a.a.listamestredetalhe.WebsiteDetailActivity">
+</WebView>
+
+<!-- VERIFICAR SE NO tools:context NÃO DEVE SER INOFRMADO A class WebsiteDetailFragment/-->
+
